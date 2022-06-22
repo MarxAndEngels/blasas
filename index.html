@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="img/evernote.png">
+<link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<header> 
+    <div class="cont11">
+    <div class="grid"> 
+    <div class="grid-item grid-item1"></div>   
+     <div class="grid-item grid-item2"></div>   
+     <div class="grid-item grid-item3"></div> 
+    <div class="grid-item grid-item4"></div>    
+    <div class="grid-item grid-item5">fddffd</div>   
+    <div class="grid-item grid-item6">fddffd</div>
+    <div class="grid-item grid-item7">fdfdffd</div>    
+    <div class="grid-item grid-item8">fddffd</div>   
+    <div class="grid-item grid-item9">fddffd</div>  
+    <div class="grid-item grid-item10">fdfdffd</div>    
+    <div class="grid-item grid-item11">fddffd</div>   
+    </div>
+</div>
+
+<button id="myBtn" class="bottom">Нажми на меня</button>
+ <div id="mypopup" class="popup">
+     <div id="popup_center" class="popup_center">
+   <div  class="popup_content">
+           <span class="close"><img src="img/x-button.png" width="40px" height="40px">  </span> <!-- рисуем крестик  &times;-->
+           <img class="pict_popap" src="img/a3ddPbRAvIU.jpg">
+        </div>
+    </div>
+    </div>
+</div>
+<div class="yellow">fdffdfd
+</div>
+<div class="parallax">
+    <div class="parallax-content">
+        <h1> Праздничный параллакс</h1>
+    </div>
+    <div class="mask"></div>
+</div>
+
+  <div class="verh">
+    <div class="Andry" id="nasvanie" data-text="Я Андрей , нажми на меня!">Я Андрей , нажми на меня!</div>
+    <div class="Andry" id="nasvanie1" data-text="Я мем , нажми на меня!">Я мем , нажми на меня!</div>
+    <div class="Andry" id="nasvanie2" data-text="Я кот , нажми на меня!">Я кот , нажми на меня!</div>
+    <div class="Andry" id="nasvanie3" data-text="А на меня лучше не нажимай!">А на меня лучше не нажимай!</div>
+</div>
+
+<audio id="player" src="audio/1.mp3"></audio>
+  <audio id="player2" src="audio/3.mp3"></audio>
+<div class="dvoynoy">
+    <div class="dv1">Песни о ДР
+ <center>
+    <input  data-wow-duration=1.2s class="buuut wow animate__animated animate__fadeInLeft" type="submit" 
+     onclick="document.getElementById('player').play() + document.getElementById('player2').pause() " value="Play music №1">
+    
+    <input  data-wow-duration=1.2s class="buuut wow animate__animated animate__fadeInRight" type="submit"  onclick="document.getElementById('player').volume+=0.1" value="Громкость +1">
+</center>
+<center>
+    <input  data-wow-duration=1.2s class="buuut wow animate__animated animate__fadeInLeft" type="submit"  onclick="document.getElementById('player').pause()" value="Pause music №1">
+<input   data-wow-duration=1.2s class="buuut wow animate__animated animate__fadeInRight" type="submit"  onclick="document.getElementById('player').volume-=0.1" value="Громкость -1">
+</center>
+    
+<center>
+    <input  data-wow-duration=1.2s class="buuut wow animate__animated animate__fadeInLeft" type="submit" 
+     onclick="document.getElementById('player2').play() + document.getElementById('player').pause()" value="Play music №2">
+          <input  data-wow-duration=1.2s class="buuut wow animate__animated animate__fadeInRight" type="submit"  onclick="document.getElementById('player2').volume+=0.1" value="Громкость +1">
+        </center>
+        <center>
+        <input  data-wow-duration=1.2s class="buuut wow animate__animated animate__fadeInLeft" type="submit"  onclick="document.getElementById('player2').pause()" value="Pause music №2">
+<input   data-wow-duration=1.2s class="buuut wow animate__animated animate__fadeInRight" type="submit"  onclick="document.getElementById('player2').volume-=0.1" value="Громкость -1">
+</center>
+<center>
+    <input id="prev" data-wow-duration=1.2s class="buuut wow animate__animated animate__fadeInLeft" type="submit" value="Prev Picture">
+    <input id="next"  data-wow-duration=1.2s class="buuut wow animate__animated animate__fadeInRight" type="submit" value="Next Picture">
+</center>
+<div class="imgClass">
+    <center>  <img src="img/teddy-bear.png" width="115px" height="115px" alt=""> </center>
+</div> 
+
+</div>
+<div class="dv2">
+    <img class="pict_krug" src="img/NBDj.txt" width="670px" height="600px" alt="">
+</div>
+</div>
+<div class="parallax">
+    <div class="parallax-content">
+    </div>
+    <div class="mask"></div>
+</div>
+
+    <script src="script.js"> </script>
+
+
+
+    <label>
+        <input type="checkbox" class='input'>
+        <div class="input__main"></div>
+        </label>
+</body>
+</html>
